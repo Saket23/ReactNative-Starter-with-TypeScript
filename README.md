@@ -130,7 +130,7 @@ import { AppRegistry } from 'react-native';
 import App from './src';
 
 AppRegistry.registerComponent('react-typescript', () => App);
-``
+```
 
 now start a terminal and add a typescript watcher to complie the file from .tsx to .js .
 
@@ -141,9 +141,9 @@ tsc -w
 This command will complie the file and create a new file index.js in the src folder .
 
 run your command 
+
 ```
 react-native run-android
-
 ```
 
 or 
