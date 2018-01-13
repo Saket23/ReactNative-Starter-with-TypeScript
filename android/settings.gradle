@@ -1,0 +1,3 @@
+rootProject.name = 'RtypeScript'
+
+include ':app'

@@ -1,0 +1,26 @@
+{
+  "name": "RtypeScript",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start --transformer node_modules/react-native-typescript-transformer/index.js --sourceExts ts,tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.52.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-native": "^0.52.0",
+    "babel-jest": "22.0.6",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.6",
+    "react-native-typescript-transformer": "^1.2.0",
+    "react-test-renderer": "16.2.0",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
